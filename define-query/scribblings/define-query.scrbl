@@ -3,6 +3,7 @@
 @(require (for-label db
                      db/define-query
                      racket/base
+                     racket/contract/base
                      racket/runtime-path))
 
 @title{@tt{define-query}}
